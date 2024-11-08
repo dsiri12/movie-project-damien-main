@@ -27,9 +27,13 @@ html, body {
 }
 
 .top-left-position, .top-right-position {
+    padding-left: 10px;
     padding-top: 25px;
+    padding-right: 150px;
 }
 
 .bottom-left-position, .bottom-right-position {
+    padding-left: 10px;
     padding-bottom: 35px;
+    padding-right: 10px;
 }
