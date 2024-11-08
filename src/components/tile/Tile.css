@@ -1,0 +1,22 @@
+.tile {
+    max-width: 400px;
+    /* box-shadow: ; */
+}
+
+.tile-img-container {
+    height: "200px";
+    width: "100%";
+}
+
+.title-content {
+    padding: 20px 15px;
+}
+
+.title-title {
+    margin: 0 0 15px;
+}
+
+.title-description {
+    margin: 0;
+    font-size: .875rem;
+}
