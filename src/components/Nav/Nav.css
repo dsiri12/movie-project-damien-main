@@ -1,0 +1,27 @@
+.nav {
+    border: 0;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content {
+    grid-template-columns: 1fr 3fr;
+    display: grid;
+}
+
+.logo {
+    padding-right: 325px;
+}
+
+.button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
