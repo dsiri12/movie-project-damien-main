@@ -7,18 +7,18 @@ interface NavProps {
 
 function Nav(props: NavProps) {
     return (
-        <nav className='nav' style={{background: props.background}}><Container>
+        <nav className='nav' style={{background: props.background}}>
             <div className="nav-content">
                 <div className="logo">
                     <img src="logoMovie_Damien_07.png" />
                 </div>
                 <div className="links">
-                    <a className="button" href="">MOVIES</a>
-                    <a className="button" href="">T.V. SHOWS</a>
-                    <a className="button">CONTACT US</a>
+                    <a className="button" href="/movies">MOVIES</a>
+                    <a className="button" href="/tv-shows">T.V. SHOWS</a>
+                    <a className="button" href="/contact">CONTACT US</a>
                 </div>
             </div>
-        </Container></nav>
+        </nav>
     )
 }
 
