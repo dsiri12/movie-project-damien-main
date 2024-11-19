@@ -1,0 +1,29 @@
+.hero {
+    overflow: hidden;
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.hero-content h1 {
+    margin: 0 0 30px;
+}
+
+.hero-content p {
+    margin: 0;
+}
+
+.hero-content p, .hero-content h1 {
+    color: #FFF;
+}
+
+.hero-content {
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4));
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

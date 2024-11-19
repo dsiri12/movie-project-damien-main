@@ -1,3 +1,5 @@
+import './HeroHeader.css'
+
 interface HeroHeaderProps {
     image: string;
     title: string;
@@ -7,8 +9,8 @@ interface HeroHeaderProps {
 
 function HeroHeader(props: HeroHeaderProps) {
     return (
-        <div style={{backgroundImage: props.image, height: props.height}}>
-            <div>
+        <div className="hero" style={{backgroundImage: `url(${props.image})`, height: props.height}}>
+            <div className="hero-content">
                 <h1>{props.title}</h1>
                 <p>{props.subtitle}</p>
             </div>
