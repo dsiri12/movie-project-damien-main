@@ -1,11 +1,11 @@
 .slider-item-card {
     display: flex;
     justify-content: center;
-    width: 150px;
+    width: 200px;
     margin: 10px 10px 5px;
 }
 
 .slider-item-title {
     text-align: center;
-    margin: 150px 10px 5px;
+    margin: 235px 10px 5px;
 }

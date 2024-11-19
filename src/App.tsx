@@ -8,7 +8,7 @@ function App() {
     <>
       <Nav background='#242424' />
       <HeroHeader title='Space-Themed Movies' image='/moon-and-earth-header.png' subtitle='Check out these movies that immerse you into an adventure within interplanetary space!' height={400} />
-      <MovieSelectionSliderItem color='red' title='Slider' height={200} width={100}/>
+      <MovieSelectionSliderItem image='/moon-and-earth-header.png' title='Slider' height={250} width={200}/>
     </>
   );
 }
