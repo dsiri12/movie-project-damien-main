@@ -1,11 +1,21 @@
 .slider-item-card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 200px;
-    margin: 10px 10px 5px;
+}
+
+.slider-item-image {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .slider-item-title {
     text-align: center;
-    margin: 235px 10px 5px;
+    margin: 15px auto 0;
+}
+
+.slider-item-title h4 {
+    margin: 0;
 }
