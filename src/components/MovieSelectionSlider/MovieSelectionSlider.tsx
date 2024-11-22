@@ -9,7 +9,12 @@ interface MovieSelectionSliderProps {
 function MovieSelectionSlider(props: MovieSelectionSliderProps) {
     return (
         <div className='movie-slider-container'>
-            <button >←</button><button>→</button>
+            <div className='button-container'>
+            <button>←</button>
+            <div className='right-button'>
+            <button>→</button>
+            </div>
+            </div>
             <div className='movie-slider-wrapper' style={{color: 'red', gridTemplateColumns: `repeat(${props.itemsPerSlide}, 1fr)`}}>
                 {props.items.map((item, index) => {
                     return <MovieSelectionSliderItem image={item.image} title={item.title} key={item.title}/>

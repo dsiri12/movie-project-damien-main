@@ -20,3 +20,12 @@
 .slider-item-title h4 {
     margin: 0;
 }
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.right-button {
+    padding-left: 1455px;
+}
