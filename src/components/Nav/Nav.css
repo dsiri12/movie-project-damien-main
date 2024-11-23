@@ -18,6 +18,18 @@
     width: 100px;
 }
 
+.left-arrow-button img {
+    object-fit: cover;
+    height: auto;
+    width: 40px;
+}
+
+.right-arrow-button img {
+    object-fit: cover;
+    height: auto;
+    width: 60px;
+}
+
 .nav .button {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 7px;
