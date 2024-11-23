@@ -4,7 +4,7 @@
 }
 
 .movie-slider-wrapper {
-
+    display: flex;
 }
 
 .navigation {
@@ -14,9 +14,11 @@
 }
 
 .left-button {
-    left: 30px;
+    top: 60px;
+    left: 5px;
 }
 
 .right-button {
-    right: 30px;
+    top: 60px;
+    right: 5px;
 }
