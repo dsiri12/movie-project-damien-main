@@ -1,0 +1,32 @@
+.bottom-footer {
+    border: 0;
+    padding: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 35px;
+    
+}
+
+.bottom-footer-content {
+    width: 100%;
+}
+
+.bottom-footer .button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.bottom-footer-links {
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    .bottom-footer-links {
+        display: flex;
+        justify-content: center;
+        margin-left: 1100px;
+    }
+}

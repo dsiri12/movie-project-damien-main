@@ -5,6 +5,7 @@
 }
 
 .movie-slider-wrapper {
+    padding: 0 0 30px;
     display: flex;
 }
 
