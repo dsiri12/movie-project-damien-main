@@ -1,7 +1,22 @@
 .movie-slider-container {
-
+    overflow: hidden;
+    position: relative;
 }
 
 .movie-slider-wrapper {
-    display: grid;
+
+}
+
+.navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-button {
+    left: 30px;
+}
+
+.right-button {
+    right: 30px;
 }
