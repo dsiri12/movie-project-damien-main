@@ -1,0 +1,10 @@
+.nearby-theaters-container {
+    height: 125px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.nearby-theaters-content {
+    display: grid;
+    justify-content: center;
+}
