@@ -9,16 +9,16 @@ interface MovieSelectionSliderProps {
 function MovieSelectionSlider(props: MovieSelectionSliderProps) {
     return (
         <div className='movie-slider-container'>
-                <div className='left-button navigation'>
-                   <button className='left-arrow-button'>
-                   <img src="leftArrowButton.png" alt="LeftArrowButton" />
-                   </button> 
-                </div>
-                <div className='right-button navigation'>
-                    <button className='right-arrow-button'>
+            <div className='left-button navigation'>
+                <button className='left-arrow-button'>
+                    <img src="leftArrowButton.png" alt="LeftArrowButton" />
+                </button> 
+            </div>
+            <div className='right-button navigation'>
+                <button className='right-arrow-button'>
                     <img src="rightArrowButton.png" alt="RightArrowButton" />
-                    </button>
-                </div>
+                </button>
+            </div>
             <div className='movie-slider-wrapper' style={{color: 'red', gridTemplateColumns: `repeat(${props.itemsPerSlide}, 1fr)`}}>
                 {props.items.map((item, index) => {
                     return <MovieSelectionSliderItem itemsPerSlide={props.itemsPerSlide} image={item.image} title={item.title} key={item.title}/>

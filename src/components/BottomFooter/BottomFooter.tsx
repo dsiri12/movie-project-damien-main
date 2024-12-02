@@ -12,7 +12,7 @@ function BottomFooter(props: BottomFooterProps) {
                     <a className='button' href="/copyright">© 2024 COPYRIGHT</a>
                     <a className="button" href="/support">SUPPORT</a>
                     <a className="button" href="/privacy">PRIVACY</a>
-                    <a className="button" href="/terms">TERMS OF USE</a>
+                    <a className="button" href="/accessibility">ACCESSIBILITY</a>
                 </div>
             </div>
         </nav>
