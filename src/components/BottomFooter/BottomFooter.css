@@ -8,8 +8,10 @@
 }
 
 .bottom-footer-content {
-    padding-right: 450px;
+    grid-template-columns: 350px 1fr;
+    display: grid;
     width: 100%;
+    justify-items: center;
 }
 
 .text {
