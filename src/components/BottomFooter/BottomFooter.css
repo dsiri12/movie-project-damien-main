@@ -1,6 +1,6 @@
 .bottom-footer {
     border: 0;
-    padding: 15px;
+    padding: 25px;
     color: white;
     display: flex;
     align-items: center;
@@ -12,13 +12,6 @@
     display: grid;
     width: 100%;
     justify-items: center;
-}
-
-.text {
-    padding-right: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FFF;
-    text-decoration: none;
 }
 
 .bottom-footer .button {
