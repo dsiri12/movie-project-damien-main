@@ -11,8 +11,8 @@ function NearbyTheatersItem(props: NearbyTheatersItemProps) {
     return (
         <div className='nearby-theaters-item-card'>
             <div className='nearby-theaters-item-title'>
-                <h2>{props.title}</h2>
-                <h4>{props.subtitle}</h4>
+                <h3>{props.title}</h3>
+                <h5>{props.subtitle}</h5>
             </div>
         </div>
     )
