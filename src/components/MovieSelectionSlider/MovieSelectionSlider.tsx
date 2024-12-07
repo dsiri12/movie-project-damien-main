@@ -19,7 +19,7 @@ function MovieSelectionSlider(props: MovieSelectionSliderProps) {
                     <img src="rightArrowButton.png" alt="RightArrowButton" />
                 </button>
             </div>
-            <div className='movie-slider-wrapper' style={{color: 'red', gridTemplateColumns: `repeat(${props.itemsPerSlide}, 1fr)`}}>
+            <div className='movie-slider-wrapper'>
                 {props.items.map((item, index) => {
                     return <MovieSelectionSliderItem itemsPerSlide={props.itemsPerSlide} image={item.image} title={item.title} key={item.title}/>
                 })}

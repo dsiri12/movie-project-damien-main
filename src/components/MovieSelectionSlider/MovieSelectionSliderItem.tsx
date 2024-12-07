@@ -10,7 +10,7 @@ export interface MovieSelectionSliderItemProps {
 
 function MovieSelectionSliderItem(props: MovieSelectionSliderItemProps) {
     return (
-            <div className='slider-item-card' style={{ width: `calc((100% / ${props.itemsPerSlide}) - 60px)` }}>
+            <div className='slider-item-card'>
                 <img className='slider-item-image' src={props.image} alt={props.title} />
                 <div className="slider-item-title">
                     <h4>{props.title}</h4>
