@@ -12,16 +12,16 @@ function App() {
       <Nav background='#242424' />
       <HeroHeader title='Space-Themed Movies' image='/moon-and-earth-header.png' subtitle='Check out these movies that immerse you into an adventure within interplanetary space!' height={400} />
       <MovieSelectionSlider items={[{
-        image: '/moon-and-earth-header.png', title: 'Movie One',
+        image: '/spiderMan2002.png', title: 'Spider-Man (2002)',
         itemsPerSlide: 0
       }, {
-        image: '/moon-and-earth-header.png', title: 'Movie Two',
+        image: '/sonicTheHedgehogMovie.png', title: 'Sonic the Hedgehog (2020)',
         itemsPerSlide: 0
       }, {
-        image: '/moon-and-earth-header.png', title: 'Movie Three',
+        image: '/gladiatorMovie.png', title: 'Gladiator',
         itemsPerSlide: 0
       }, {
-        image: '/moon-and-earth-header.png', title: 'Movie Four',
+        image: '/justiceLeagueMovie.png', title: 'Justice League',
         itemsPerSlide: 0
       } ]} />
       <NearbyTheatersContainer items={[{ title: 'Movie Theater 1', subtitle: '401 Passaic Drive New York, NY 010101' }]} />

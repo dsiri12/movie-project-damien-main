@@ -32,14 +32,14 @@ function MovieSelectionSlider(props: MovieSelectionSliderProps) {
     return (
             <div className='movie-slider-wrapper'>
                 <Carousel responsive={responsive} swipeable={false}
-  draggable={false}
-  showDots={true}
+  draggable={true}
+  showDots={false}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
   autoPlaySpeed={1000}
   keyBoardControl={true}
-  customTransition="all .5"
-  transitionDuration={500}
+  customTransition="all ."
+  transitionDuration={1500}
   containerClass="carousel-container"
   removeArrowOnDeviceType={["tablet", "mobile"]}
   dotListClass="custom-dot-list-style"
