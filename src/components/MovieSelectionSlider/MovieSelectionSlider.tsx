@@ -31,20 +31,20 @@ function MovieSelectionSlider(props: MovieSelectionSliderProps) {
 
     return (
             <div className='movie-slider-wrapper'>
-                <Carousel responsive={responsive} swipeable={false}
-  draggable={true}
-  showDots={false}
-  ssr={true} // means to render carousel on server-side.
-  infinite={true}
-  autoPlaySpeed={1000}
-  keyBoardControl={true}
-  customTransition="all ."
-  transitionDuration={1500}
-  containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
-  dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px">
-                   {props.items.map((item, index) => {
+                <Carousel responsive={responsive} swipeable={true}
+                  draggable={true}
+                  showDots={false}
+                  ssr={true} // means to render carousel on server-side.
+                  infinite={true}
+                  autoPlaySpeed={1000}
+                  keyBoardControl={true}
+                  customTransition="all ."
+                  transitionDuration={1500}
+                  containerClass="carousel-container"
+                  removeArrowOnDeviceType={["tablet", "mobile"]}
+                  dotListClass="custom-dot-list-style"
+                  itemClass="carousel-item-padding-40-px">
+                  {props.items.map((item, index) => {
                     return <MovieSelectionSliderItem itemsPerSlide={props.itemsPerSlide} image={item.image} title={item.title} key={item.title}/>
                 })} 
                 
