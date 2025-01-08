@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Nav background='#242424' />
-      <HeroHeader title='Space-Themed Movies' image='/moon-and-earth-header.png' subtitle='Check out these movies that immerse you into an adventure within interplanetary space!' height={400} />
+      <HeroHeader title='🌕 SPACE-THEMED MOVIES 🧑‍🚀' image='/moon-and-earth-header.png' subtitle='Check out these movies that immerse you into an adventure within interplanetary space!' height={400} />
       <MovieSelectionSlider itemsPerSlide={0} items={[{
         image: '/spiderMan2002.png', title: 'Spider-Man (2002)',
         itemsPerSlide: 0
